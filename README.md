@@ -2,20 +2,16 @@
 
 Requirement :
 
-  -ansible
+  - ansible
 
-  -docker
+  - docker
 
-  -gpg
+  - k3d (https://github.com/rancher/k3d/releases/tag/v4.4.3) de preference la version 1.7
 
-  -go >= 1.16
+  - kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
-  -k3d (https://github.com/rancher/k3d/releases/tag/v4.4.3) de preference la version 1.7
+  - helm >= 3.x (https://github.com/helm/helm#install)
 
-  -kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+  - sops (https://github.com/mozilla/sops/releases)
 
-  -helm >= 3.x (https://github.com/helm/helm#install)
-
-  -sops (https://github.com/mozilla/sops/releases)
-
-  -tilt (https://github.com/windmilleng/tilt/releases)
+  - tilt (https://github.com/windmilleng/tilt/releases)
